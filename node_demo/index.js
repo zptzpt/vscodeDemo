@@ -36,4 +36,5 @@
 // console.log(shell.which('node'));
 // console.log(!shell.which('git'));
 const cp = require('child_process');
-console.log(cp);
+console.log(process.cwd());
+// console.log(cp);
